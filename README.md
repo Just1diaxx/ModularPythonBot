@@ -1,9 +1,7 @@
 # ModularPythonBot
 
 > Hi, this is a template of a discord.py bot for beginners.
-
 > It is divided in various folders: ```modules``` and ```commands```.
-
 > Modules are simply some event listeners and can be registered by ```self.bot.add_listener(function, "event").``` So, for example ```self.bot.add_listener(self.on_message, "on_message")```
 
 Command template:
