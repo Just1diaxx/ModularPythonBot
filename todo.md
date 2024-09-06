@@ -4,7 +4,7 @@
 [-] = In progress
 [X] = Completed
 
-```python
+```yaml
 
 Discord:
 - [] Rank system
