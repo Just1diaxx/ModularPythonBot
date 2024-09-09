@@ -11,6 +11,7 @@
 import discord
 from discord.ext import commands
 from loaders.InitialLoader import InitialLoader
+from loaders.ReadyLogger import ReadyLogger
 
 intents = discord.Intents.all()
 
@@ -29,7 +30,7 @@ bot = ModularPythonBot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'Bot {bot.user} is now in execution!')
+    ReadyLogger(bot)
 
 
 bot.run("TOKEN HERE")
